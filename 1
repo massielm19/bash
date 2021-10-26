@@ -30,12 +30,12 @@ do
       done < $file;
 
  if [[ $f == "true" && $c == "0" ]]; then
-	echo "La imagen: $a SI SE PUEDE BORRAR"
+	echo "la imagen $a SI SE PUEDE BORRAR"
         docker rmi $a	
  elif [[ $f == "1" && $c == "0" ]]; then
-	echo "La imagen: $a esta en el archivo de no borrar y NO SE PUEDE BORRAR"
+	echo "la imagen $a esta en el archivo de no borrar y NO SE PUEDE BORRAR"
  elif [[ $f == "true" && $c == "1" ]]; then
-        echo "La imagen: $a esta en el archivo de no borrar NO SE PUEDE BORRAR"	
+        echo "la imagen $a esta en el archivo de no borrar NO SE PUEDE BORRAR"	
  fi
 done
 

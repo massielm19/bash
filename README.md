@@ -1,2 +1,2 @@
 # bash
-Eliminar imagenes docker
+Eliminar imagenes docker que mayores a una fecha especifica
